@@ -4,6 +4,24 @@
 
 @layer base {
   body {
-    @apply m-auto font-poppins antialiased
+    @apply font-poppins overflow-x-hidden antialiased;
   }
+}
+
+.slick-slide {
+  padding: 0 0.4rem;
+}
+
+.carousel .slide {
+  display: flex;
+  justify-content: center;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
